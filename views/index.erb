@@ -7,3 +7,9 @@
     <a href="/">Try again</a>
   </p>
 </div>
+
+<form method="post" action="/tweet">
+  <input name="prediction" value="<%= @prediction %>" type="hidden">
+  <input name="wiki_url" value="<%= @wiki_url %>" type="hidden">
+  <button type="submit">Cher if you agree!!</button>
+</form>
